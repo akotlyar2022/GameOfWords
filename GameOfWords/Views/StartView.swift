@@ -26,7 +26,7 @@ struct StartView: View {
                 .padding(20)
                 .padding(.top, 32)
                 .font(.title)
-                .foregroundColor(.blue)
+                .foregroundColor(.green)
             
             WordsTextField(word: $player1, placeholder: "Игрок 1")
                 .cornerRadius(12)
